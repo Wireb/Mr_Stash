@@ -4,14 +4,14 @@ License is MIT so do what you want with it just don't litigate me.
 
 **NOTE** I screwed up and wipped my laptop hard drive before pulling the final firmware version off it. The version in this repo is from right before I left for DC26 and is missing the following items:
 - LED mode that cycles though all patterns
-- Bonus hidden morse code message at high pattern offset 
+- Bonus hidden Morse code message at high pattern offset 
 - All but one vibe pattern
 - Vibe mode that cycles though all patterns once
-- Updated touch sensor code. Code in repo works good in my house in MN but was unuseable in the dry Nevada enviroment. 
+- Updated touch sensor code. Code in repo works good in my house in MN but was unusable in the dry Nevada environment. 
 
 ## InkScape
-Inkscape was used for the "art" layout of the badge. This mainly consisted of the outline, Stash, motors, IR sensor locations, and eyebrows. These layser were converted into SVG files then imported into KiCad as footprints. 
-The edge cuts were post processed via Perl scripts to convert it from a filled zone (KiCad 3D viewer pukes on this) to line segemnts. 
+Inkscape was used for the "art" layout of the badge. This mainly consisted of the outline, Stash, motors, IR sensor locations, and eyebrows. These layers were converted into SVG files then imported into KiCad as footprints. 
+The edge cuts were post processed via Perl scripts to convert it from a filled zone (KiCad 3D viewer pukes on this) to line segments. 
 
 ## KiCad
 This is a KiCad 4.x project that has been updated to 5.0 so some things are a little funky. 
@@ -28,7 +28,7 @@ The firmware source is all contained in Mr_Stash.asm (see not above about missin
 
 ## documentation
 This is a XLS/PDF dump of the spreadsheet documentation I was using during development. 
-All the menu items and command protocall are detailed in here. 
+All the menu items and command protocol are detailed in here. 
 
 
 
