@@ -1,0 +1,850 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sun Aug 19 17:19:26 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x000b36
+                   .org_2       code   0x000800    program   0x000a54
+                   .org_3       code   0x001000    program   0x000896
+                   .org_4       code   0x001800    program   0x00018c
+                   UserID       code   0x008000    program   0x000002
+.config_8007_BUILD/DEFAULT/PRODUCTION/MR_STAS       code   0x008007    program   0x000002
+.config_8008_BUILD/DEFAULT/PRODUCTION/MR_STAS       code   0x008008    program   0x000002
+.config_8009_BUILD/DEFAULT/PRODUCTION/MR_STAS       code   0x008009    program   0x000002
+.config_800A_BUILD/DEFAULT/PRODUCTION/MR_STAS       code   0x00800a    program   0x000002
+.config_800B_BUILD/DEFAULT/PRODUCTION/MR_STAS       code   0x00800b    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x00059e      
+                            0x000800    0x000d29      
+                            0x001000    0x00144a      
+                            0x001800    0x0018c5      
+                            0x008000    0x008000      
+                            0x008007    0x00800b      
+            4063 out of 8202 program addresses used, program memory utilization is 49%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  ENDLOOP   0x0013e0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         FVR_startup_loop   0x00048f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                      IRQ   0x000048    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b1_gt_carry   0x000088    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b1_lt_carry   0x00008f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b1s1   0x000137    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b1s2   0x000143    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b2_gt_carry   0x00009e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b2_lt_carry   0x0000a5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b2s1   0x000123    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b2s2   0x00012f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b3_gt_carry   0x0000b4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b3_lt_carry   0x0000bb    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b3s1   0x00010f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b3s2   0x00011b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b4_gt_carry   0x0000ca    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b4_lt_carry   0x0000d1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b4s2   0x000107    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_ADC_button1   0x000073    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_ADC_button2   0x000067    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_ADC_button3   0x00005b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       IRQ_ADC_debug_leds   0x0000d4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        IRQ_ADC_step_done   0x00014a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED1b_1   0x0001a6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED1b_2   0x00019e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED1b_done   0x0001ad    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED1g_1   0x000190    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED1g_2   0x000188    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED1g_done   0x000197    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED1r_1   0x00017a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED1r_2   0x000172    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED1r_done   0x000181    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED2b_1   0x0001e8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED2b_2   0x0001e0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED2b_done   0x0001ef    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED2g_1   0x0001d2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED2g_2   0x0001ca    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED2g_done   0x0001d9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED2r_1   0x0001bc    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED2r_2   0x0001b4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED2r_done   0x0001c3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED3b_1   0x00022a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED3b_2   0x000222    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED3b_done   0x000231    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED3g_1   0x000214    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED3g_2   0x00020c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED3g_done   0x00021b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED3r_1   0x0001fe    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED3r_2   0x0001f6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED3r_done   0x000205    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED4b_1   0x00026c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED4b_2   0x000264    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED4b_done   0x000273    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED4g_1   0x000256    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED4g_2   0x00024e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED4g_done   0x00025d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED4r_1   0x000240    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED4r_2   0x000238    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED4r_done   0x000247    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                IRQ_RX2_3   0x000396    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                IRQ_RX2_4   0x00038c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_RX2_no_FERR   0x000378    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_RX2_no_OERR   0x00037d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       IRQ_RX2_packet_bad   0x000426    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_direct_done   0x000426    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ IRQ_RX2_packet_direct_m2   0x0003cf    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_direct_remote   0x0003bf    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_set_display   0x0003dc    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  IRQ_RX2_packet_set_led1   0x0003f2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  IRQ_RX2_packet_set_led2   0x0003f9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  IRQ_RX2_packet_set_led3   0x000400    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  IRQ_RX2_packet_set_led4   0x000407    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_set_led_speed_h   0x0003ea    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_set_led_speed_l   0x0003e3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  IRQ_RX2_packet_set_vibe   0x00040e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_set_vibe_h   0x00041e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_set_vibe_l   0x000417    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_TX2_no_calc   0x00031d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_TX2_send   0x000326    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_TX2_send_S   0x000330    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_TX2_send_chksum   0x000361    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         IRQ_TX2_send_cmd   0x00033a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        IRQ_TX2_send_data   0x000354    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_TX2_send_id   0x000347    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_TX2_stop   0x00031f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        IRQ_beacon_b_done   0x000155    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_beacon_done   0x000306    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         IRQ_beacon_reset   0x000302    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_beacon_send   0x0002f6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink1_2   0x000281    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink1_3   0x000286    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_blink1_done   0x00028a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink2_2   0x000297    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink2_3   0x00029c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_blink2_done   0x0002a0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink3_2   0x0002ae    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink3_3   0x0002b4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_blink3_done   0x0002b9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink4_2   0x0002c6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink4_3   0x0002cb    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_blink4_done   0x0002cf    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+            IRQ_delay_L_0   0x0000df    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_delay_done   0x0000e4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_delay_led_0   0x0000e9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       IRQ_delay_led_done   0x0000ee    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_delay_vibe   0x0000f3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_delay_vibe_done   0x0000f8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       IRQ_direct_m1_done   0x00015f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       IRQ_direct_m2_done   0x000169    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_led_done   0x0002ef    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_not_ADC   0x0000d4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_not_RX2   0x00042d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_not_TMR0   0x000306    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_not_TX2   0x00036d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               LEDS_start   0x001006    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                 MAINLOOP   0x000800    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+            MAINLOOP_LEDS   0x001000    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+            MAINLOOP_VIBE   0x001800    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                    START   0x00042e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              Set_M1_done   0x0018ad    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                Set_M1_on   0x0018a3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              Set_M2_done   0x0018c3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                Set_M2_on   0x0018ba    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                VIBE_done   0x001845    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                VIBE_next   0x00181d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+            VIBE_option_2   0x001824    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+            VIBE_option_3   0x00182b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         VIBE_option_done   0x00182d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             VIBE_subloop   0x001840    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              _CYCLE_LFSR   0x001436    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                   _Delay   0x000598    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              _RGB_rotate   0x00141b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                 _RIDE_ME   0x0013e1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               _SAVE_VARS   0x000cf4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     _SAVE_VARS_load_done   0x000d1d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     _SAVE_VARS_load_loop   0x000d07    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      _SAVE_VARS_pad_loop   0x000d11    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                  _Set_M1   0x001899    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                  _Set_M2   0x0018b0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              _UNLOCK_NVM   0x000d22    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+            _VIBE_up_down   0x001884    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       _VIBE_up_down_dual   0x001848    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       _VIBE_up_down_stop   0x00186d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_4_led_blink_select   0x000ae0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         button_ctl_12bit   0x0009ee    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       button_ctl_12bit_A   0x000a01    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_A_1_inc   0x000a11    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_A_2   0x000a13    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_A_2_inc   0x000a20    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_A_3   0x000a23    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_A_3_inc   0x000a39    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_A_4   0x000a45    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_A_4_inc   0x000a54    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       button_ctl_12bit_B   0x000a58    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_B_1_dec   0x000a67    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_B_2   0x000a69    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_B_2_dec   0x000a75    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_B_3   0x000a78    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_B_3_dec   0x000a8d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_B_4   0x000a99    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_B_4_dec   0x000aa7    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_sel   0x0009f4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         button_ctl_24bit   0x000af4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       button_ctl_24bit_A   0x000b07    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_A_1_inc   0x000b17    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_A_2   0x000b19    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_A_2_inc   0x000b28    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_A_3   0x000b2b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_A_3_inc   0x000b3c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_A_4   0x000b40    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_A_4_inc   0x000b51    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       button_ctl_24bit_B   0x000b55    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_B_1_dec   0x000b64    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_B_2   0x000b66    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_B_2_dec   0x000b74    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_B_3   0x000b77    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_B_3_dec   0x000b87    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_B_4   0x000b8b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_B_4_dec   0x000b9b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_sel   0x000afa    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        button_ctl_2x4bit   0x000baf    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_2x4bit_A   0x000bc2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_A_1_inc   0x000bd2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_A_2   0x000bd5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_A_2_inc   0x000be4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_A_3   0x000be8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_A_3_inc   0x000bf9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_A_4   0x000bfe    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_A_4_inc   0x000c0f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_2x4bit_B   0x000c14    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_B_1_dec   0x000c23    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_B_2   0x000c26    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_B_2_dec   0x000c34    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_B_3   0x000c38    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_B_3_dec   0x000c48    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_B_4   0x000c4d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_B_4_dec   0x000c5d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_sel   0x000bb5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          button_ctl_8bit   0x00089f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        button_ctl_8bit_A   0x000957    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_ctl_8bit_A_1_inc   0x000968    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_8bit_A_2   0x00096a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_ctl_8bit_A_2_inc   0x000977    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_8bit_A_3   0x00097a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_ctl_8bit_A_3_inc   0x000987    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        button_ctl_8bit_B   0x00098a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_ctl_8bit_B_1_dec   0x00099a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_8bit_B_2   0x00099c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_ctl_8bit_B_2_dec   0x0009a8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_8bit_B_3   0x0009ab    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_ctl_8bit_B_3_dec   0x0009b7    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_8bit_all_done   0x0008c6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_1   0x0008ae    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_10   0x000920    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_11   0x00092a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_12   0x000934    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_13   0x00093e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_2   0x0008b5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_3   0x0008bc    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_4   0x0008d0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_6   0x0008c3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_9   0x0008da    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_A   0x0008e4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_B   0x0008ee    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_C   0x0008f8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_D   0x000902    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_E   0x00090c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_F   0x000916    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_8bit_sel   0x000949    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_10   0x00091a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_11   0x000924    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_12   0x00092e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_9   0x0008d4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_A   0x0008de    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_B   0x0008e8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_C   0x0008f2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_D   0x0008fc    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_E   0x000906    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_F   0x000910    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_chk_start   0x00087a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_direct_remote   0x000cc1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_direct_remote_A   0x000cd0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_direct_remote_B   0x000cd6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_direct_remote_send   0x000cda    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          button_ctl_done   0x000cea    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_no_press   0x000cf0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_save_vars   0x000cbe    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_send_rmt_IR_cmd   0x000940    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         button_ctl_start   0x000883    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_update_leds_12bit   0x000aab    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_1   0x000ab0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_10   0x000ad8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_11   0x000adc    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_12   0x000ae0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_2   0x000ab4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_3   0x000ab8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_4   0x000abd    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_5   0x000ac1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_6   0x000ac5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_7   0x000aca    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_8   0x000ace    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_9   0x000ad3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_update_leds_24bit   0x000b9f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit   0x000c62    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_1   0x000c6a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_10   0x000caf    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_11   0x000cb6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_12   0x000cbd    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_2   0x000c71    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_3   0x000c78    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_4   0x000c81    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_5   0x000c88    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_6   0x000c8f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_7   0x000c98    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_8   0x000c9f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_9   0x000ca6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_update_leds_8bit   0x0009ba    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_1   0x0009bf    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_2   0x0009c3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_3   0x0009c7    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_4   0x0009cc    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_5   0x0009d0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_6   0x0009d4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_7   0x0009d9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_8   0x0009dd    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      debounce_check_done   0x00080d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     debounce_check_start   0x000805    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              led_mode_10   0x0013c5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_2   0x001029    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_3   0x00103a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_4   0x00104b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_1   0x001058    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_2   0x001063    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_3   0x00106e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_4   0x001079    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_5   0x001083    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_6   0x00108d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_7   0x001098    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_8   0x0010a3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_9   0x0010ae    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_A   0x0010ba    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          led_mode_4_done   0x0010bb    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_5   0x0010c1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_1   0x0010ce    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_2   0x0010da    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_3   0x0010e6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_4   0x0010f2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_5   0x00110c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_6   0x001116    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_7   0x001122    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_8   0x00112e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_9   0x00113a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_A   0x001156    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          led_mode_5_done   0x001157    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    led_mode_5_update1_0C   0x001102    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    led_mode_5_update1_30   0x001109    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  led_mode_5_update1_done   0x00110b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    led_mode_5_update2_0C   0x00114c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    led_mode_5_update2_30   0x001153    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  led_mode_5_update2_done   0x001155    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_6   0x00115d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_1   0x00116a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_2   0x001176    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_3   0x001182    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_4   0x00118e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_5   0x001198    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_6   0x0011a2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_7   0x0011ae    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_8   0x0011ba    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_9   0x0011c6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_A   0x0011e2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          led_mode_6_done   0x0011e3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    led_mode_6_update2_0C   0x0011d8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    led_mode_6_update2_30   0x0011df    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  led_mode_6_update2_done   0x0011e1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_7   0x0011e9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_1   0x001206    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_2   0x001211    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_3   0x00121c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_4   0x001227    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_5   0x001231    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_6   0x00123b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_7   0x001246    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_8   0x001251    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_9   0x00125c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_A   0x001268    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          led_mode_7_done   0x001269    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_8   0x00126f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_9   0x001294    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          led_mode_9_done   0x0012b7    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           led_mode_9_dot   0x0012ab    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           led_mode_9_gap   0x0012b3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_a   0x0012c1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_a_1   0x0012cb    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_a_2   0x0012d0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_a_3   0x0012d5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_a_4   0x0012da    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_b   0x0012df    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_b_1   0x0012f1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_b_2   0x0012f6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_b_3   0x0012fb    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_b_4   0x001300    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_c   0x001305    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_c_1   0x001317    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_c_2   0x001324    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_c_3   0x001331    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_c_4   0x00133e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_d   0x001343    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_d_1   0x00134d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_d_2   0x001352    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_d_3   0x001357    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_d_4   0x00135c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_e   0x001361    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_e_1   0x001373    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_e_2   0x001378    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_e_3   0x00137d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_e_4   0x001382    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_f   0x001387    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_f_1   0x001399    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_f_2   0x0013a6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_f_3   0x0013b3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_f_4   0x0013c0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          led_move_8_done   0x00128a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           led_move_8_dot   0x00127e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           led_move_8_gap   0x001286    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                load_done   0x000483    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                load_loop   0x000459    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               load_loop2   0x00047b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                load_regs   0x000474    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             reg_set_done   0x00087a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_0   0x000820    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_2   0x000827    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_3   0x00082c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        reg_set_mode_3_do   0x000830    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_4   0x000833    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_5   0x00083a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_6   0x000841    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_7   0x000848    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        reg_set_mode_9_do   0x000875    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_A   0x000878    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     reg_set_no_prepop_13   0x000818    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                skip_leds   0x0013dd    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      IRQ   0x000048    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_ADC_button3   0x00005b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_ADC_button2   0x000067    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_ADC_button1   0x000073    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b1_gt_carry   0x000088    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b1_lt_carry   0x00008f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b2_gt_carry   0x00009e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b2_lt_carry   0x0000a5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b3_gt_carry   0x0000b4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b3_lt_carry   0x0000bb    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b4_gt_carry   0x0000ca    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_ADC_b4_lt_carry   0x0000d1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       IRQ_ADC_debug_leds   0x0000d4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_not_ADC   0x0000d4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+            IRQ_delay_L_0   0x0000df    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_delay_done   0x0000e4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_delay_led_0   0x0000e9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       IRQ_delay_led_done   0x0000ee    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_delay_vibe   0x0000f3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_delay_vibe_done   0x0000f8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b4s2   0x000107    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b3s1   0x00010f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b3s2   0x00011b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b2s1   0x000123    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b2s2   0x00012f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b1s1   0x000137    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_ADC_b1s2   0x000143    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        IRQ_ADC_step_done   0x00014a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        IRQ_beacon_b_done   0x000155    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       IRQ_direct_m1_done   0x00015f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       IRQ_direct_m2_done   0x000169    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED1r_2   0x000172    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED1r_1   0x00017a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED1r_done   0x000181    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED1g_2   0x000188    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED1g_1   0x000190    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED1g_done   0x000197    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED1b_2   0x00019e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED1b_1   0x0001a6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED1b_done   0x0001ad    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED2r_2   0x0001b4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED2r_1   0x0001bc    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED2r_done   0x0001c3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED2g_2   0x0001ca    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED2g_1   0x0001d2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED2g_done   0x0001d9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED2b_2   0x0001e0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED2b_1   0x0001e8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED2b_done   0x0001ef    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED3r_2   0x0001f6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED3r_1   0x0001fe    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED3r_done   0x000205    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED3g_2   0x00020c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED3g_1   0x000214    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED3g_done   0x00021b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED3b_2   0x000222    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED3b_1   0x00022a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED3b_done   0x000231    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED4r_2   0x000238    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED4r_1   0x000240    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED4r_done   0x000247    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED4g_2   0x00024e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED4g_1   0x000256    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED4g_done   0x00025d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED4b_2   0x000264    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_LED4b_1   0x00026c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_LED4b_done   0x000273    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink1_2   0x000281    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink1_3   0x000286    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_blink1_done   0x00028a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink2_2   0x000297    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink2_3   0x00029c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_blink2_done   0x0002a0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink3_2   0x0002ae    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink3_3   0x0002b4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_blink3_done   0x0002b9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink4_2   0x0002c6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_blink4_3   0x0002cb    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_blink4_done   0x0002cf    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_led_done   0x0002ef    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_beacon_send   0x0002f6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         IRQ_beacon_reset   0x000302    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_not_TMR0   0x000306    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_beacon_done   0x000306    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_TX2_no_calc   0x00031d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_TX2_stop   0x00031f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             IRQ_TX2_send   0x000326    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           IRQ_TX2_send_S   0x000330    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         IRQ_TX2_send_cmd   0x00033a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_TX2_send_id   0x000347    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        IRQ_TX2_send_data   0x000354    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      IRQ_TX2_send_chksum   0x000361    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_not_TX2   0x00036d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_RX2_no_FERR   0x000378    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          IRQ_RX2_no_OERR   0x00037d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                IRQ_RX2_4   0x00038c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                IRQ_RX2_3   0x000396    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_direct_remote   0x0003bf    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ IRQ_RX2_packet_direct_m2   0x0003cf    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_set_display   0x0003dc    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_set_led_speed_l   0x0003e3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_set_led_speed_h   0x0003ea    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  IRQ_RX2_packet_set_led1   0x0003f2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  IRQ_RX2_packet_set_led2   0x0003f9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  IRQ_RX2_packet_set_led3   0x000400    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  IRQ_RX2_packet_set_led4   0x000407    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  IRQ_RX2_packet_set_vibe   0x00040e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_set_vibe_l   0x000417    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_set_vibe_h   0x00041e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       IRQ_RX2_packet_bad   0x000426    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+IRQ_RX2_packet_direct_done   0x000426    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              IRQ_not_RX2   0x00042d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                    START   0x00042e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                load_loop   0x000459    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                load_regs   0x000474    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               load_loop2   0x00047b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                load_done   0x000483    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         FVR_startup_loop   0x00048f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                   _Delay   0x000598    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                 MAINLOOP   0x000800    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     debounce_check_start   0x000805    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      debounce_check_done   0x00080d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     reg_set_no_prepop_13   0x000818    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_0   0x000820    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_2   0x000827    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_3   0x00082c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        reg_set_mode_3_do   0x000830    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_4   0x000833    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_5   0x00083a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_6   0x000841    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_7   0x000848    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        reg_set_mode_9_do   0x000875    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           reg_set_mode_A   0x000878    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             reg_set_done   0x00087a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_chk_start   0x00087a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         button_ctl_start   0x000883    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          button_ctl_8bit   0x00089f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_1   0x0008ae    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_2   0x0008b5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_3   0x0008bc    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_6   0x0008c3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_8bit_all_done   0x0008c6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_4   0x0008d0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_9   0x0008d4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_9   0x0008da    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_A   0x0008de    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_A   0x0008e4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_B   0x0008e8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_B   0x0008ee    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_C   0x0008f2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_C   0x0008f8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_D   0x0008fc    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_D   0x000902    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_E   0x000906    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_E   0x00090c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_F   0x000910    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_F   0x000916    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_10   0x00091a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_10   0x000920    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_11   0x000924    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_11   0x00092a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_wait_mode_12   0x00092e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_12   0x000934    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_8bit_not_mode_13   0x00093e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_send_rmt_IR_cmd   0x000940    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_8bit_sel   0x000949    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        button_ctl_8bit_A   0x000957    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_ctl_8bit_A_1_inc   0x000968    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_8bit_A_2   0x00096a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_ctl_8bit_A_2_inc   0x000977    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_8bit_A_3   0x00097a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_ctl_8bit_A_3_inc   0x000987    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        button_ctl_8bit_B   0x00098a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_ctl_8bit_B_1_dec   0x00099a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_8bit_B_2   0x00099c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_ctl_8bit_B_2_dec   0x0009a8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_8bit_B_3   0x0009ab    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_ctl_8bit_B_3_dec   0x0009b7    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  button_update_leds_8bit   0x0009ba    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_1   0x0009bf    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_2   0x0009c3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_3   0x0009c7    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_4   0x0009cc    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_5   0x0009d0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_6   0x0009d4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_7   0x0009d9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_8bit_8   0x0009dd    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         button_ctl_12bit   0x0009ee    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_sel   0x0009f4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       button_ctl_12bit_A   0x000a01    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_A_1_inc   0x000a11    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_A_2   0x000a13    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_A_2_inc   0x000a20    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_A_3   0x000a23    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_A_3_inc   0x000a39    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_A_4   0x000a45    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_A_4_inc   0x000a54    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       button_ctl_12bit_B   0x000a58    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_B_1_dec   0x000a67    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_B_2   0x000a69    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_B_2_dec   0x000a75    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_B_3   0x000a78    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_B_3_dec   0x000a8d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_12bit_B_4   0x000a99    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_12bit_B_4_dec   0x000aa7    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_update_leds_12bit   0x000aab    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_1   0x000ab0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_2   0x000ab4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_3   0x000ab8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_4   0x000abd    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_5   0x000ac1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_6   0x000ac5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_7   0x000aca    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_8   0x000ace    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_9   0x000ad3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_10   0x000ad8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_11   0x000adc    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_4_led_blink_select   0x000ae0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_12bit_12   0x000ae0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         button_ctl_24bit   0x000af4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_sel   0x000afa    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       button_ctl_24bit_A   0x000b07    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_A_1_inc   0x000b17    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_A_2   0x000b19    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_A_2_inc   0x000b28    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_A_3   0x000b2b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_A_3_inc   0x000b3c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_A_4   0x000b40    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_A_4_inc   0x000b51    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       button_ctl_24bit_B   0x000b55    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_B_1_dec   0x000b64    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_B_2   0x000b66    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_B_2_dec   0x000b74    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_B_3   0x000b77    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_B_3_dec   0x000b87    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_24bit_B_4   0x000b8b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_24bit_B_4_dec   0x000b9b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_update_leds_24bit   0x000b9f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+        button_ctl_2x4bit   0x000baf    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_sel   0x000bb5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_2x4bit_A   0x000bc2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_A_1_inc   0x000bd2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_A_2   0x000bd5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_A_2_inc   0x000be4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_A_3   0x000be8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_A_3_inc   0x000bf9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_A_4   0x000bfe    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_A_4_inc   0x000c0f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_2x4bit_B   0x000c14    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_B_1_dec   0x000c23    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_B_2   0x000c26    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_B_2_dec   0x000c34    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_B_3   0x000c38    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_B_3_dec   0x000c48    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    button_ctl_2x4bit_B_4   0x000c4d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_2x4bit_B_4_dec   0x000c5d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit   0x000c62    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_1   0x000c6a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_2   0x000c71    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_3   0x000c78    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_4   0x000c81    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_5   0x000c88    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_6   0x000c8f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_7   0x000c98    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_8   0x000c9f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_9   0x000ca6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_10   0x000caf    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_11   0x000cb6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_update_leds_2x4bit_12   0x000cbd    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     button_ctl_save_vars   0x000cbe    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+ button_ctl_direct_remote   0x000cc1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_direct_remote_A   0x000cd0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_direct_remote_B   0x000cd6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+button_ctl_direct_remote_send   0x000cda    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          button_ctl_done   0x000cea    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      button_ctl_no_press   0x000cf0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               _SAVE_VARS   0x000cf4    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     _SAVE_VARS_load_loop   0x000d07    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+      _SAVE_VARS_pad_loop   0x000d11    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+     _SAVE_VARS_load_done   0x000d1d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              _UNLOCK_NVM   0x000d22    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+            MAINLOOP_LEDS   0x001000    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               LEDS_start   0x001006    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_2   0x001029    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_3   0x00103a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_4   0x00104b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_1   0x001058    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_2   0x001063    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_3   0x00106e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_4   0x001079    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_5   0x001083    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_6   0x00108d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_7   0x001098    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_8   0x0010a3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_9   0x0010ae    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_4_A   0x0010ba    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          led_mode_4_done   0x0010bb    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_5   0x0010c1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_1   0x0010ce    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_2   0x0010da    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_3   0x0010e6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_4   0x0010f2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    led_mode_5_update1_0C   0x001102    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    led_mode_5_update1_30   0x001109    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  led_mode_5_update1_done   0x00110b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_5   0x00110c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_6   0x001116    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_7   0x001122    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_8   0x00112e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_9   0x00113a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    led_mode_5_update2_0C   0x00114c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    led_mode_5_update2_30   0x001153    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  led_mode_5_update2_done   0x001155    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_5_A   0x001156    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          led_mode_5_done   0x001157    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_6   0x00115d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_1   0x00116a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_2   0x001176    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_3   0x001182    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_4   0x00118e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_5   0x001198    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_6   0x0011a2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_7   0x0011ae    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_8   0x0011ba    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_9   0x0011c6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    led_mode_6_update2_0C   0x0011d8    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+    led_mode_6_update2_30   0x0011df    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+  led_mode_6_update2_done   0x0011e1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_6_A   0x0011e2    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          led_mode_6_done   0x0011e3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_7   0x0011e9    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_1   0x001206    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_2   0x001211    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_3   0x00121c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_4   0x001227    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_5   0x001231    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_6   0x00123b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_7   0x001246    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_8   0x001251    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_9   0x00125c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_7_A   0x001268    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          led_mode_7_done   0x001269    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_8   0x00126f    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           led_move_8_dot   0x00127e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           led_move_8_gap   0x001286    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          led_move_8_done   0x00128a    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_9   0x001294    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           led_mode_9_dot   0x0012ab    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+           led_mode_9_gap   0x0012b3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+          led_mode_9_done   0x0012b7    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_a   0x0012c1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_a_1   0x0012cb    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_a_2   0x0012d0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_a_3   0x0012d5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_a_4   0x0012da    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_b   0x0012df    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_b_1   0x0012f1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_b_2   0x0012f6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_b_3   0x0012fb    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_b_4   0x001300    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_c   0x001305    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_c_1   0x001317    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_c_2   0x001324    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_c_3   0x001331    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_c_4   0x00133e    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_d   0x001343    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_d_1   0x00134d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_d_2   0x001352    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_d_3   0x001357    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_d_4   0x00135c    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_e   0x001361    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_e_1   0x001373    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_e_2   0x001378    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_e_3   0x00137d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_e_4   0x001382    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+               led_mode_f   0x001387    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_f_1   0x001399    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_f_2   0x0013a6    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_f_3   0x0013b3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             led_mode_f_4   0x0013c0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              led_mode_10   0x0013c5    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                skip_leds   0x0013dd    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                  ENDLOOP   0x0013e0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                 _RIDE_ME   0x0013e1    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              _RGB_rotate   0x00141b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              _CYCLE_LFSR   0x001436    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+            MAINLOOP_VIBE   0x001800    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                VIBE_next   0x00181d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+            VIBE_option_2   0x001824    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+            VIBE_option_3   0x00182b    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+         VIBE_option_done   0x00182d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+             VIBE_subloop   0x001840    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                VIBE_done   0x001845    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       _VIBE_up_down_dual   0x001848    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+       _VIBE_up_down_stop   0x00186d    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+            _VIBE_up_down   0x001884    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                  _Set_M1   0x001899    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                Set_M1_on   0x0018a3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              Set_M1_done   0x0018ad    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                  _Set_M2   0x0018b0    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+                Set_M2_on   0x0018ba    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+              Set_M2_done   0x0018c3    program     static D:\cam_offload_cache\mplab\Mr_Stash\Mr_Stash.X\Mr_Stash.asm
+
+
