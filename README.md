@@ -15,16 +15,11 @@ The edge cuts were post processed via Perl scripts to convert it from a filled z
 
 ## KiCad
 This is a KiCad 4.x project that has been updated to 5.0 so some things are a little funky. 
-Note the following parts were not populated in the final design:
-1x 0.1uF cap
-4x 22uF cap
-2x diodes
-1x badge bus connector
-1x SAO connector 
+Note the following parts were not populated in the final design: 1x 0.1uF cap, 4x 22uF cap, 2x diodes, 1x badge bus connector, 1x SAO connector 
 
 ## mplabX
 This is a mplabX 4.2 project that was upgraded mid project to 5.0. All programming / debug was done with a PicKit4 or a PicKit3 (killed my PK4 just before leaving for DC26)
-The firmware source is all contained in Mr_Stash.asm (see not above about missing functions)
+The firmware source is all contained in Mr_Stash.asm (see note above about missing functions)
 
 ## documentation
 This is a XLS/PDF dump of the spreadsheet documentation I was using during development. 
